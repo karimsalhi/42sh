@@ -1,0 +1,12 @@
+name: Cat should work
+command: cat
+stdin: |
+  "Le test doit fonctionner"
+stdout: |
+  "Le test doit fonctionner"
+returncode: 0
+
+name: Simple echo a
+command: ../build/./42sh -c "echo a"
+stdout: a
+returncode: 0
